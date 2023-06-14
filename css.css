@@ -1,0 +1,247 @@
+/* start */
+
+/* navigation bar styling */
+body{
+	cursor: default;
+}
+.nav_bar{
+	background-color:black;
+	margin-top:-10px;
+	box-shadow:0px 0px 0px 10px black;
+}
+
+.nav_bar ul{
+	margin-top:-30px;
+	margin-left: 600px;
+	padding:0px;
+
+	background:black;
+}
+.nav_bar li{
+	display:inline-block;
+	margin-left: 17px;
+	letter-spacing: 0px;
+	margin-top: 0px;
+}
+.nav_bar a{
+	padding:10px;
+	font-size:17px;
+	color:#fff;
+	font-family:century Gothic;
+	text-decoration:none;
+	display:block;
+	
+	border-radius:0px;
+}
+a:hover
+{
+    
+	background:#fff;
+	color:crimson;
+	cursor: default;
+}
+
+li.navigation
+{
+	background:black;
+}
+.nav_bar li ul
+{
+	display:none;
+}
+
+#trim{
+	color: white;
+	background-color: black;
+	font-size: 35px;
+	margin-left: -620px;
+	margin-top: 10px;
+	height: 30px;
+	font-family: countryside;
+	
+}
+/* Banner Section Start */
+
+.banner_section{
+    background-image: url('https://wallpapercave.com/wp/yodXv7a.jpg');
+    height: 565px;
+	margin-top: -20px;
+    width: 101%;
+    margin-left: -10px;
+    margin-right: -10px;
+    box-shadow: 0px 0px 30px 30px black;
+}
+
+/* login page */
+
+section{
+    margin-top: -530px;
+}
+.login-box{
+    position: relative;
+    width: 400px;
+    height: 420px;
+    background: transparent;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+.input-box1{
+    width: 310px;
+    margin: 20px ;
+    border-bottom: 2px solid #fff;
+}
+.input-box2{
+    width: 310px;
+    margin: 20px ;
+    border-bottom: 2px solid #fff;
+}
+.input-box1 label{
+    position: absolute;
+    top:27%;
+    left:33px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+.input-box2 label{
+    position: absolute;
+    top:47%;
+    left:33px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-box1 input{
+    width:100%;
+    height:50px;
+    background: transparent;
+    border:none;
+    text-align: left;
+    outline: none;
+    font-size: 1em;
+    color: #fff;
+    
+    margin-top: 6px;
+}
+.input-box1 input:hover{
+    width:100%;
+    height:50px;
+    background: transparent;
+    border:none;
+    outline: none;
+    font-size: 1.1em;
+    color: #fff;
+    margin-top: 10px;
+    padding: 0 0px 0 0px;
+}
+.input-box1 .icon{
+    position: absolute;
+    right: 40px;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 1.3em;
+    line-height: -37px;
+
+}
+.input-box2 input{
+    width:100%;
+    height:50px;
+    background: transparent;
+    border:none;
+    outline: none;
+    font-size: 1em;
+    color: #fff;
+    margin-top: 7px;
+    padding: 0 25px 0 0px;
+}
+.input-box2 input:hover{
+    width:100%;
+    height:50px;
+    background: transparent;
+    border:none;
+    outline: none;
+    font-size: 1.1em;
+    color: #fff;
+    margin-top: 16px;
+    padding: 0 0px 0 0px;
+}
+.input-box2 .icon{
+    position: absolute;
+    right: 40px;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 1.3em;
+    line-height: -37px;
+
+}
+
+.remember-forgot{
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.remember-forgot label input{
+    margin-right: 3px;
+
+}
+.remember-forgot a{
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.remember-forgot a:hover{
+        text-decoration: underline;
+		color:#ffffff;
+		background-color: transparent;
+}
+
+button{
+
+    width:100%;
+    height:40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #000;
+    font-weight: 500;
+}
+
+.register-link{
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+.register-link p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.register-link p a:hover{
+    text-decoration: underline;
+	color:#ffffff;
+	background-color: transparent;
+}
